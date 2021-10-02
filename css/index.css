@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 
 
 .header {
@@ -8,6 +9,9 @@
 }
 .nav-link {
 	font-weight: 600;
+}
+#brand-name{
+	color: rgb(120, 207, 39) ;
 }
 .nav-item {
 	padding-left:25px;
@@ -58,11 +62,35 @@
  
 /*---------- section1 ----------------*/
 .section1{
-	padding:20px;
+	
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: #f9f2ec
+}
+.card{
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.card-body{
+	text-align: center;
+	justify-content: center;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: rgb(132, 216, 54) !important;
+	border: none;
 }
 @media (max-width: 600px){
 	.section1{
 		margin:0;
 		padding:0;
 	}
+}
+
+.section1 .title1{
+	text-align:center;
+	justify-content:center;
+	padding: 25px;
+	margin: 20px;
+	color: rgb(120, 207, 39) ;
+	font-family: 'PT Serif', serif;
 }
