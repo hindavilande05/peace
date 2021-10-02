@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Pacifico&display=swap');
+
+
+.header {
+    background-color: #fff;
+}
+.nav-link {
+	font-weight: 600;
+}
+.nav-item {
+	padding-left:25px;
+}
+.carousel-item {
+  height: 500px;
+}
+.carousel-item img {
+    position: relative;
+    width:50%;
+    max-height: 80vh;
+}
+.carousel-item h1{
+	font-size:8vw;
+}
+.carousel-item p{
+	font-size:3vw;
+}
+
+#main-caption{
+	top: 50% !important;
+	transform: translateY(-40%);
+	text-align: center;
+	bottom: initial;
+}
+@media (max-width: 600px) { 
+	.carousel-caption  {
+		top: 50% !important;
+		transform: translateY(-30%);
+		text-align: center;
+		bottom: initial;
+		font-size:10px;
+	}
+	#main-caption{
+		top: 50% !important;
+		transform: translateY(-130%);
+		text-align: center;
+		bottom: initial;
+		font-size:10px;
+	}
+	.carousel-item h1{
+		font-size:30px;
+	}
+	.carousel-item p{
+		font-size:15px;
+	}
+ }
+ 
+/*---------- section1 ----------------*/
+.section1{
+	padding:20px;
+}
+@media (max-width: 600px){
+	.section1{
+		margin:0;
+		padding:0;
+	}
+}
