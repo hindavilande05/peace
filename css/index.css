@@ -78,6 +78,10 @@
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
     background-color: rgb(132, 216, 54) !important;
 	border: none;
+
+}
+.btn a{
+	border: none;
 }
 @media (max-width: 600px){
 	.section1{
@@ -94,3 +98,46 @@
 	color: rgb(120, 207, 39) ;
 	font-family: 'PT Serif', serif;
 }
+
+
+/*---------- section4 ----------------*/
+.section4{
+	
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: #f9f2ec
+}
+.card{
+	margin-top: 10px;
+	margin-bottom: 15px;
+	border: none;
+}
+.card-body4{
+	text-align: left;
+}
+.card-text4{
+	padding-top: 5px;
+
+}
+.card-body4 h6{
+	font-weight: 500;
+}
+@media (max-width: 600px){
+	.section4{
+		margin:0;
+		padding:0;
+	}
+}
+
+.section4 .title4{
+	text-align:center;
+	justify-content:center;
+	padding: 25px;
+	margin: 20px;
+	color: rgb(120, 207, 39) ;
+	font-family: 'PT Serif', serif;
+}
+
+
+
+
